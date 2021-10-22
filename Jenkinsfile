@@ -5,7 +5,7 @@ pipeline{
         stage("Sonarqube"){
             agent {
                 docker {
-                    image 'openjdk:11'
+                    image 'openjdk:8'
                 }
             }
             steps{
