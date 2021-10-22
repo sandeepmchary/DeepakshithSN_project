@@ -1,8 +1,6 @@
 pipeline{
     agent any
-    plugins {
-  id "org.sonarqube" version "3.3"
-}
+    
     stages{
         stage("Sonarqube"){
             agent {
